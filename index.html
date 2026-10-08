@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Friends-only playtest: keep search engines out. Delete this line at public launch (see DEPLOY.md). -->
+<meta name="robots" content="noindex, nofollow">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; style-src 'self'; script-src 'self'; connect-src https://api.github.com; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<title>Salvage Arena – playtest download</title>
+<meta name="description" content="A scrapyard roguelite. Build a broken robot into a war machine, one wave at a time. Friends-only playtest for Windows.">
+<meta name="theme-color" content="#16161A">
+<!-- Link previews (Discord, etc.). These must be absolute URLs; change them if the site lives at a different address. -->
+<meta property="og:title" content="Salvage Arena – playtest">
+<meta property="og:description" content="A scrapyard roguelite. Solo or online co-op for up to 4. Windows download.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://oddsocketgames.github.io/salvage-arena/">
+<meta property="og:image" content="https://oddsocketgames.github.io/salvage-arena/social.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="odd-socket-mark.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#download">Skip to download</a>
+
+<header class="hero">
+  <img class="hero-bg" src="hero-scrapyard.jpg" alt="" width="1600" height="900">
+  <div class="hero-inner">
+    <p class="tag">Friends-only playtest</p>
+    <h1><img class="logo pixel" src="salvage-arena-logo.png" width="1230" height="492" alt="Salvage Arena"></h1>
+    <p class="pitch">A scrapyard roguelite. Build a broken robot into a war machine, one wave at a time.</p>
+
+    <div id="download" class="dl">
+      <a class="btn" href="https://github.com/oddsocketgames/salvage-arena-releases/releases/latest/download/SalvageArena-Launcher.exe">
+        <span class="btn-main">Download the launcher</span>
+        <span class="btn-sub">Windows · 24 KB · SalvageArena-Launcher.exe</span>
+      </a>
+      <p class="ver">Current version: <strong id="ver">0.11.1</strong> <span id="ver-date"></span>
+        · <a id="ver-link" href="https://github.com/oddsocketgames/salvage-arena-releases/releases/latest">release notes</a></p>
+      <p class="small">Windows 10 or 11. The launcher downloads the game (about 12 MB) on first run, then keeps it up to date.</p>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="card warn" aria-labelledby="first">
+    <h2 id="first">First launch: "Windows protected your PC"</h2>
+    <p>The launcher isn't code-signed yet (signing certificates cost money and this is a small playtest), so Windows SmartScreen
+      doesn't recognise it. When you run it the first time:</p>
+    <ol>
+      <li>Your browser may say the file "isn't commonly downloaded". Choose <strong>Keep</strong>.</li>
+      <li>Run <code>SalvageArena-Launcher.exe</code>. If a blue "Windows protected your PC" box appears, click
+        <strong>More info</strong>, then <strong>Run anyway</strong>.</li>
+      <li>The launcher installs the game, updates it, and starts it. You only see the warning once.</li>
+    </ol>
+    <p class="small">Only download the launcher from this page or the
+      <a href="https://github.com/oddsocketgames/salvage-arena-releases/releases">Odd Socket GitHub releases</a>.
+      If you got it anywhere else, don't run it.</p>
+  </section>
+
+  <section aria-labelledby="shots">
+    <h2 id="shots">Screenshots</h2>
+    <ul class="shots">
+      <li><a href="shot-scrapyard.jpg"><img src="shot-scrapyard.jpg" width="1280" height="720" loading="lazy"
+        alt="A robot fighting a swarm of insect-like enemies on the cracked concrete of the Scrapyard, with an explosion of scrap in the middle."></a></li>
+      <li><a href="shot-toxic.jpg"><img src="shot-toxic.jpg" width="1280" height="720" loading="lazy"
+        alt="A golden robot firing a long ice beam in the Toxic Dump, surrounded by enemies and green sludge pools."></a></li>
+      <li><a href="shot-smelter.jpg"><img src="shot-smelter.jpg" width="1280" height="720" loading="lazy"
+        alt="Wave 15 boss fight against The Smelter, a huge red furnace, on the hazard-striped floor of the Foundry."></a></li>
+      <li><a href="shot-shop.jpg"><img src="shot-shop.jpg" width="1280" height="720" loading="lazy"
+        alt="The Salvage Yard shop between waves, offering a relic and three modules to buy with scrap."></a></li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="what">
+    <h2 id="what">What's in it</h2>
+    <p>Pick one of nine salvage robots, each with its own gun, ultimate and quirks, and fight through 15 waves across the
+      Scrapyard, the Toxic Dump and the Foundry. Between waves, spend scrap in the Salvage Yard: modules that link up on your
+      chassis, drones that fight beside you, gun upgrades, and relics that change the rules of your run.</p>
+    <ul class="feat">
+      <li>9 robots, 9 signature guns with four upgrade tiers each, and 9 ultimates</li>
+      <li>48 relics and 25 relic synergies; 59 modules that link on a chassis grid</li>
+      <li>4 arenas with their own hazards and 6 bosses</li>
+      <li>Online co-op for up to 4: revive your friends, ping targets, shared DPS meter</li>
+      <li>Endless mode, daily runs, weekly challenges, boss rush and 8 threat levels</li>
+      <li>Save &amp; quit mid-run, full controller support (or mouse and keyboard)</li>
+    </ul>
+  </section>
+
+  <section class="card" aria-labelledby="friends">
+    <h2 id="friends">Play with friends</h2>
+    <ol>
+      <li>Open <strong>CO-OP → FRIENDS</strong> in the game. You get your own friend code, like <code>AB3D-EF7H</code>.</li>
+      <li>Send your code to a friend (or add theirs). Once they accept, you can see when each other is online.</li>
+      <li><strong>INVITE</strong> a friend (it hosts a lobby for you) and they get a pop-up to accept, or <strong>JOIN</strong> a friend who's hosting. Up to 4 players,
+        and friends can join a run that's already going.</li>
+    </ol>
+    <p class="small">Everyone needs the same version. Starting the game through the launcher keeps you up to date, so keep the
+      launcher somewhere handy (your Desktop is fine) and use it to play.</p>
+  </section>
+
+  <section aria-labelledby="help">
+    <h2 id="help">Good to know</h2>
+    <ul class="feat">
+      <li>Found a bug? Pause (Esc, or START on a controller) and choose <strong>REPORT A BUG</strong>. It saves a text file and a
+        screenshot; send them to us however you like. Nothing is sent anywhere automatically.</li>
+      <li>The game installs to <code>%LOCALAPPDATA%\Programs\SalvageArena</code>. Your saves live separately in
+        <code>%LOCALAPPDATA%\SalvageArena</code> and updates never touch them.</li>
+      <li>To uninstall, delete those two folders and the launcher.</li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <img class="mark" src="odd-socket-mark.svg" width="40" height="40" alt="">
+  <p><span class="wordmark">odd socket</span> <span class="games">GAMES</span></p>
+  <p class="small">© 2026 Odd Socket. Salvage Arena is a playtest build: expect bugs, and thanks for helping.</p>
+</footer>
+
+<script src="version.js" defer></script>
+</body>
+</html>
