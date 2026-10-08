@@ -140,3 +140,8 @@ footer p { margin: 6px 0; }
 @media (prefers-reduced-motion: reduce) {
   .btn { transition: none; }
 }
+
+/* ---------- terms / privacy pages ---------- */
+.legal { max-width: 720px; padding-top: 24px; }
+.legal h1 { font-size: 34px; line-height: 1.2; margin: 8px 0 4px; }
+.legal h2 { font-size: 21px; margin: 30px 0 8px; }
