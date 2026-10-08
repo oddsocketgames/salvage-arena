@@ -113,6 +113,21 @@ li { margin: 0 0 8px; }
 .shots a { display: block; border-radius: 8px; overflow: hidden; border: 2px solid var(--steel-ui); }
 .shots a:hover { border-color: var(--teal); }
 
+/* ---------- screenshot viewer ---------- */
+#viewer {
+  padding: 0; border: 0; background: transparent; max-width: 100vw; max-height: 100vh;
+  width: 100vw; height: 100vh; display: none; align-items: center; justify-content: center; cursor: zoom-out;
+}
+#viewer[open] { display: flex; }
+#viewer::backdrop { background: rgba(10, 10, 14, .92); }
+#viewer img { max-width: calc(100vw - 32px); max-height: calc(100vh - 96px); width: auto; border-radius: 6px; }
+.viewer-close {
+  position: fixed; top: 12px; right: 12px; width: 48px; height: 48px; border-radius: 50%;
+  border: 2px solid var(--steel); background: var(--lifted); color: var(--paper);
+  font: 32px/1 var(--sans); cursor: pointer;
+}
+.viewer-close:hover, .viewer-close:focus-visible { border-color: var(--gold); color: var(--gold); outline: none; }
+
 .feat li::marker { color: var(--teal); }
 
 /* ---------- footer ---------- */
