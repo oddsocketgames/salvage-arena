@@ -15,7 +15,7 @@
 <main class="legal">
   <p><a href="./">&larr; Salvage Arena</a></p>
   <h1>Privacy Policy</h1>
-  <p class="small">Salvage Arena, by Odd Socket. Last updated 7 October 2026.</p>
+  <p class="small">Salvage Arena, by Odd Socket. Last updated 10 October 2026.</p>
 
   <p>Salvage Arena is a small game made by Odd Socket ("we", "us"). We collect as little as we can. We have no ads,
     no analytics, no tracking and no accounts with passwords, and we never sell or share your data.
@@ -26,13 +26,21 @@
     <code>%LOCALAPPDATA%\SalvageArena</code> on your computer. The game never uploads them. A crash or bug report is only sent
     to us if you choose to send it yourself.</p>
 
+  <h2>Friends leaderboards</h2>
+  <p>From version 0.13 (and in the 3D beta), when you're connected and a run ends, the game sends your score on that run's leaderboard (the
+    daily, the weekly, your robot's Arena board, endless or boss rush) to our server, with the robot you played and the
+    wave you reached. The server keeps only your best score on each board, stored with your random player ID. Only you
+    and your friends can see it, next to your display name; nobody else can. Old daily boards are deleted after 14 days.
+    Runs where tester tools were used are never sent.</p>
+
   <h2>The friends list (Salvage Arena server)</h2>
   <p>If you use the friends list, the game connects to our server and it stores:</p>
   <ul>
     <li>a random player ID and secret, made by the server (your copy is kept in <code>friends.ini</code> in your save folder),</li>
     <li>your friend code and the display name you use in the game,</li>
     <li>your friends list and pending friend requests,</li>
-    <li>the date your player ID was created.</li>
+    <li>the date your player ID was created,</li>
+    <li>your best leaderboard scores, as described above.</li>
   </ul>
   <p>While you're connected, the server also keeps in memory whether you're online, in a lobby or in a run, and your
     game version, so it can show your friends your status. It forgets this when you disconnect. Your friends can see your display name,
@@ -66,7 +74,7 @@
     GitHub's API for the current version number. GitHub may log visits as described in its privacy statement.</p>
 
   <h2>Keeping and deleting your data</h2>
-  <p>Friends-list data is kept until you ask us to delete it, or until the playtest server shuts down. To have your player ID,
+  <p>Friends-list data and leaderboard scores are kept until you ask us to delete them, or until the playtest server shuts down. To have your player ID,
     name, friend code and friends list deleted, contact us with your friend code (shown under CO-OP &gt; FRIENDS).
     Deleting <code>friends.ini</code> only makes the game start a fresh player ID. It doesn't remove the old one from the server.</p>
 
